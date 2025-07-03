@@ -27,3 +27,8 @@ Office.onReady(() => {
     document.getElementById("output").innerText = data.reply;
   };
 });
+
+Office.onReady(() => {
+  console.log("Office.js chargé !");
+  document.body.insertAdjacentHTML("beforeend", "<p>Loaded depuis Outlook ✅</p>");
+});
