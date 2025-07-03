@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <script src="taskpane.js"></script>
+</head>
+<body>
+  <h3>Assistant de réponse GPT</h3>
+  <p><strong>Email :</strong> <span id="emailSubject"></span></p>
+  <textarea id="bulletPoints" rows="6" cols="50" placeholder="• Merci pour l'invitation\n• Je suis dispo demain à 14h"></textarea>
+  <br><br>
+  <button onclick="generateReply()">Générer la réponse</button>
+  <h4>Réponse générée :</h4>
+  <div id="output"></div>
+</body>
+</html>
